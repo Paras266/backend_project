@@ -2,16 +2,19 @@
   "name": "backend_project",
   "version": "1.0.0",
   "description": "",
-  "type" : "module" ,
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1" ,
-     "dev" : "nodemon src/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index.js"
   },
   "author": "paras",
   "license": "ISC",
   "dependencies": {
     "D": "^1.0.0",
     "nodemon": "^3.1.9"
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2"
   }
 }
